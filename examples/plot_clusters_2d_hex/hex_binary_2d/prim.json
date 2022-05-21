@@ -1,0 +1,16 @@
+{
+  "basis" : [
+    {
+      "coordinate" : [ 0.0, 0.0, 0.0 ],
+      "occupants" : [ "A", "B"]
+    }
+  ],
+  "coordinate_mode" : "Fractional",
+  "description" : "Hexagonal binary",
+  "lattice_vectors" : [
+    [ 1.0, 0.0, 0.0 ],
+    [ -0.5, 0.8660254037844386, 0.0 ],
+    [ 0.0, 0.0, 10.0 ]
+  ],
+  "title" : "hex_binary"
+}

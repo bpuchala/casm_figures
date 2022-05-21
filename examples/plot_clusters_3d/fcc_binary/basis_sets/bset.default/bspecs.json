@@ -1,0 +1,19 @@
+{
+  "basis_function_specs" : {
+    "dof_specs": {
+      "occ": {
+        "site_basis_functions" : "chebychev"
+      }
+    }
+  },
+  "cluster_specs": {
+    "method": "periodic_max_length",
+    "params": {
+      "orbit_branch_specs": {
+        "2" : {"max_length" : 3.01},
+	      "3" : {"max_length" : 1.51},
+        "4" : {"max_length" : 1.01}
+      }
+    }
+  }
+}
